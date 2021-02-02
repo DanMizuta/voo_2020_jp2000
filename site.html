@@ -9,7 +9,7 @@
 
             .img-comp-container {
               position: relative;
-              height: 873px; /*should be the same height as the images*/
+              height: 873px; /*mesma altura da imagem*/
             }
 
             .img-comp-img {
@@ -28,7 +28,7 @@
               position: absolute;
               z-index:9;
               cursor: ew-resize;
-              /*set the appearance of the slider:*/
+              /*aparencia do slider:*/
               width: 40px;
               height: 40px;
               background-color: #2196F3;
@@ -228,5 +228,13 @@
             <p>A banda Alpha 5 aparentar ser uma banda "transparente" que permeia todos os pixels da imagem, para permitir a visualização</p>
             <p>foi utilizado a cor azul para a banda 5 Alpha, veja que toda a imagem ficou de coloração azul</p>
             <img src="https://raw.githubusercontent.com/DanMizuta/voo_2020_jp2000/main/images/tiff_alphablue_1000.png">
+        <h2>Análise Quantidade de Bandas</h2>
+            <p>Verificar com a empresa se a falta de duas bandas no jp2000 causou a grande redução do tamanho do arquivo e se eles vão enviar o infravermelhor separadamente</p>
+            <br></br>
+            <h2>Análise final</h2>
+            <p>Não há diferença radiométrica entre os produtos e absolutamente nenhuma diferença no tamanho dos pixels.</p>
+            <p>Fica apenas esse questionamento sobre a banda Infravermelho Próximo não estar presente na imagem JP2000 e o quanto isso ajudou na compressão</p>
+            <p>Porém fica claro que a imagem TIFF com 5 bandas possui 282 MB a imagem JP2000 com 3 bandas apenas 8,7 MB, taxa de 33:1 de compressão,</p>
+            <p>Uma grande redução de espaço sem nenhuma perda de qualidade<p>
     </body>
 </html>
